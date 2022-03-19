@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Practica1</title>
+  </head>
+  <body>
+    <form action="<?php echo $server[php_SELF]?" method="post">
+      <input type="text" name="Dir" placeholder="Dirección" required>
+      <input type="date" name="Dat" placeholder="date" required>
+      <select name="Servicio" required>
+        <option value="1">Compra</option>
+        <option value="2">Venta</option>
+      </select>
+        <input type="text" name="Nom" placeholder="Nombre" required>
+        <input type="text" name="Mun" placeholder="Municipio" required>
+        <input type="time" name="Hor" placeholder="Tiempo" required>
+        <input type="submit" name="registrar" value="Registrar">
+    </form>
+  </body>
+</html>
